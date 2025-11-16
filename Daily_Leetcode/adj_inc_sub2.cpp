@@ -1,5 +1,5 @@
 class Solution {
-public:
+private:
         int maxIncreasingSubarrays(vector<int>& A) {
         int n = A.size(), up = 1, pre_max_up = 0, res = 0;
         for (int i = 1; i < n; ++i) {
@@ -14,3 +14,5 @@ public:
         return res;
     }
 };
+
+// main not added
